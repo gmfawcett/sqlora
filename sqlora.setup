@@ -1,0 +1,7 @@
+(run (make))
+(install-extension
+	 'sqlora
+	'("sqlora.so"))
+(install-extension
+	 'sqlora-longfield
+	'("sqlora-longfield.so"))
